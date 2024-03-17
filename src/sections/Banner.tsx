@@ -1,30 +1,33 @@
 import VideoBackground from "@/components/VideoBackground";
 import Card from "@/components/Card";
-import WhatsAppIcon from "@/assets/whatsapp.svg";
+import WhatsAppIcon from "@/assets/icons/whatsapp.svg";
+import { useTranslation } from "react-i18next";
 
 const Banner = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="h-[80%]">
       <VideoBackground />
       <div className="grid grid-cols-2 items-center mx-auto w-[90%] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="uppercase text-[#F9BC49] text-6xl font-semibold w-full">
-          <h1>Taxis y Remises.</h1>
-          <h2>Confianza, seguridad y puntualidad.</h2>
-          <h1>Reservas las 24hs.</h1>
+          <h1>{t("banner_1")}</h1>
+          <h2>{t("banner_2")}</h2>
+          <h1>{t("banner_3")}</h1>
           <h1 className="text-[#5B408F] font-bold text-2xl">
             Ezeiza traslados vip
           </h1>
         </div>
         <div className="flex flex-col items-end gap-y-5">
           <Card
-            title="Desde capital"
-            principalPrice="U$D 25"
-            secondaryPrice="BRL 120 // EUR 25"
+            title={t("first_card")}
+            principalPrice={t("first_card_1")}
+            secondaryPrice={t("first_card_2")}
           />
           <Card
-            title="Desde ezeiza"
-            principalPrice="U$D 25"
-            secondaryPrice="BRL 120 // EUR 25"
+            title={t("second_card")}
+            principalPrice={t("second_card_1")}
+            secondaryPrice={t("second_card_2")}
           />
           <div className="relative flex items-center bg-[#19C853] w-11/12 px-2 py-4 cursor-pointer">
             <div className="absolute left-4">
@@ -32,7 +35,7 @@ const Banner = () => {
             </div>
             <div className="flex-grow text-center">
               <span className="uppercase font-semibold text-2xl text-white ">
-                Contactanos
+                {t("contact_us")}
               </span>
             </div>
           </div>

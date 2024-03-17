@@ -1,7 +1,10 @@
 import Benefit from "@/components/Benefit";
-import Background from "@/assets/background.jpg";
+import Background from "@/assets/images/background.jpg";
+import { useTranslation } from "react-i18next";
 
 const Benefits = () => {
+  const { t } = useTranslation();
+
   const style = {
     backgroundImage: `url(${Background})`,
     backgroundSize: "cover",
@@ -12,14 +15,14 @@ const Benefits = () => {
       <div className="bg-black opacity-90 h-full w-full" />
       <div className="absolute top-0 left-0 flex items-center justify-center w-full h-full">
         <div className="grid grid-cols-3 items-center justify-center gap-y-5">
-          <Benefit title="Precios finales." />
-          <Benefit title="Desde y hacia cualquier punto de Buenos Aires." />
-          <Benefit title="Peajes incluidos." />
-          <Benefit title="Monitoreos de los vuelos." />
-          <Benefit title="Paseos / City tour y viajes a cualquier punto del pais." />
-          <Benefit title="En aeropuerto 1hs bonificada." />
+          <Benefit title={t("benefits_1")} />
+          <Benefit title={t("benefits_2")} />
+          <Benefit title={t("benefits_3")} />
+          <Benefit title={t("benefits_4")} />
+          <Benefit title={t("benefits_5")} />
+          <Benefit title={t("benefits_6")} />
           <div />
-          <Benefit title="Los esperamos con cartel y/o Whatsapp." />
+          <Benefit title={t("benefits_7")} />
           <div />
         </div>
       </div>

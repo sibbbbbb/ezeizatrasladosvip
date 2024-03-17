@@ -1,4 +1,4 @@
-import CheckIcon from "@/assets/check.svg";
+import CheckIcon from "@/assets/icons/check.svg";
 
 interface BenefitProps {
   title: string;

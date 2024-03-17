@@ -1,4 +1,4 @@
-import ArrowDown from "@/assets/arrowdown.svg";
+import ArrowDown from "@/assets/icons/arrowdown.svg";
 
 const Separator = () => {
   return (
