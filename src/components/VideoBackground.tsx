@@ -2,7 +2,7 @@ import videoSource from "@/assets/videos/video.mp4";
 
 const VideoBackground = () => {
   return (
-    <div className="relative h-full">
+    <div className="relative h-full hidden md:block">
       <video
         className="w-full h-full object-cover "
         autoPlay
