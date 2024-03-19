@@ -1,4 +1,4 @@
-export default function getContryLanguage(country) {
+export default function getContryLanguage(country: string) {
   const countries = [
     { country: "AR", language: "es" }, // Argentina
     { country: "AU", language: "en" }, // Australia
