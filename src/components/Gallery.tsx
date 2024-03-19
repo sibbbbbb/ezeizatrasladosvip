@@ -12,13 +12,13 @@ const Gallery = () => {
 
   return (
     <PhotoProvider>
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-x-5 gap-y-10 mt-10">
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-x-5 gap-y-10 mt-10">
         {images.map((image, index) => (
           <PhotoView key={index} src={image}>
             <img
               src={image}
               alt={`Image ${index + 1}`}
-              className="mx-auto w-40 h-40 md:w-52 md:h-52 cursor-pointer object-cover"
+              className="mx-auto w-40 h-40 2xl:w-52 2xl:h-52 cursor-pointer object-cover"
             />
           </PhotoView>
         ))}
