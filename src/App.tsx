@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <div className="h-auto md:h-screen">
+      <div className="h-auto lg:h-screen">
         <Header />
         <Banner />
         <Separator />

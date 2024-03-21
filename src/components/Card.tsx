@@ -6,7 +6,7 @@ interface CardProps {
 
 const Card = ({ title, principalPrice, secondaryPrice }: CardProps) => {
   return (
-    <div className="flex flex-row justify-between items-center w-full md:w-11/12 h-40 md:h-56 bg-black bg-opacity-90 p-5 md:p-8">
+    <div className="flex flex-row justify-between items-center w-full lg:w-11/12 h-40 lg:h-56 bg-black bg-opacity-90 p-5 lg:p-8">
       <h2 className="text-[#F9BC49] text-4xl md:text-5xl uppercase font-semibold w-20">
         {title}
       </h2>
