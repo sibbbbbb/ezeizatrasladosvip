@@ -6,9 +6,9 @@ interface BenefitProps {
 
 const Benefit = ({ title }: BenefitProps) => {
   return (
-    <div className="flex flex-row justify-start md:justify-center items-center gap-x-2">
+    <div className="flex flex-row justify-start lg:justify-center items-center gap-x-2">
       <img src={CheckIcon} alt="check" />
-      <span className="text-lg md:text-xl font-bold text-white">{title}</span>
+      <span className="text-lg 2xl:text-xl font-bold text-white">{title}</span>
     </div>
   );
 };

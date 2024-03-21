@@ -11,7 +11,7 @@ const Card = ({ title, principalPrice, secondaryPrice }: CardProps) => {
         {title}
       </h2>
       <div className="flex flex-col justify-center items-center font-semibold">
-        <span className="text-4xl md:text-5xl text-white">
+        <span className="text-4xl 2xl:text-5xl text-white">
           {principalPrice}
         </span>
         <span className="text-[#5B408F]">{secondaryPrice}</span>
