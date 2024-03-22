@@ -22,7 +22,7 @@ const Banner = () => {
             <h1>{t("banner_1")}</h1>
             <h2>{t("banner_2")}</h2>
             <h1>{t("banner_3")}</h1>
-            <h1 className="text-white lg:text-[#5B408F] font-bold text-2xl">
+            <h1 className="text-white font-bold text-2xl">
               Ezeiza traslados vip
             </h1>
           </div>
@@ -42,7 +42,7 @@ const Banner = () => {
                 <img src={WhatsAppIcon} alt="whatsapp" />
               </div>
               <div className="flex-grow text-center">
-                <span className="uppercase font-semibold text-2xl text-white ">
+                <span className="uppercase font-semibold text-2xl text-black ">
                   {t("contact_us")}
                 </span>
               </div>
