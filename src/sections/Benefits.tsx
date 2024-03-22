@@ -1,5 +1,5 @@
 import Benefit from "@/components/Benefit";
-import Background from "@/assets/images/background.jpg";
+import Background from "@/assets/images/background-benefits.jpg";
 import { useTranslation } from "react-i18next";
 
 const Benefits = () => {
