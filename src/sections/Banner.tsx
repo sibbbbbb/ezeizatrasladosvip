@@ -14,7 +14,7 @@ const Banner = () => {
 
   return (
     <div className="relative h-[57rem] lg:h-[80%]" style={style}>
-      <div className=" bg-black opacity-50 w-full h-full"></div>
+      <div className=" bg-black opacity-30 w-full h-full"></div>
       <div className="flex justify-center items-center absolute inset-0 h-full w-full">
         <VideoBackground />
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center mx-auto w-[90%] lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 py-10">

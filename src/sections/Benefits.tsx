@@ -15,7 +15,7 @@ const Benefits = () => {
       className="relative h-[35rem] md:h-[30rem] 2xl:h-[40rem]"
       style={style}
     >
-      <div className="bg-black opacity-90 h-full w-full" />
+      <div className="bg-black opacity-30 h-full w-full" />
       <div className="absolute top-0 left-0 flex items-center justify-center w-full h-full">
         <div className="grid grid-cols-1 px-4 lg:grid-cols-3 items-center justify-center gap-y-5">
           <Benefit title={t("benefits_1")} />
