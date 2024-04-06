@@ -12,6 +12,10 @@ const Banner = () => {
     backgroundSize: "cover",
   };
 
+  function clickOnContact() {
+    return window.open("https://wa.me/+5491135744889", "_blank");
+  }
+
   return (
     <div className="relative h-[57rem] lg:h-[80%]" style={style}>
       <div className=" bg-black opacity-30 w-full h-full"></div>
@@ -37,7 +41,10 @@ const Banner = () => {
               principalPrice={t("second_card_1")}
               secondaryPrice={t("second_card_2")}
             />
-            <div className="relative flex items-center bg-[#19C853] w-full lg:w-11/12 px-2 py-4 cursor-pointer">
+            <div
+              className="relative flex items-center bg-[#19C853] w-full lg:w-11/12 px-2 py-4 cursor-pointer"
+              onClick={() => clickOnContact()}
+            >
               <div className="absolute left-4">
                 <img src={WhatsAppIcon} alt="whatsapp" />
               </div>
