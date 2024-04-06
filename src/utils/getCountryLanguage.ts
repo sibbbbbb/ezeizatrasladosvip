@@ -1,6 +1,6 @@
 export default function getContryLanguage(country: string) {
   const countries = [
-    { country: "AR", language: "es" }, // Argentina
+    { country: "AR", language: "es_ar" }, // Argentina
     { country: "AU", language: "en" }, // Australia
     { country: "BR", language: "pt_br" }, // Brasil, Portugués
     { country: "CA", language: "en" }, // Canadá, Inglés
@@ -52,7 +52,7 @@ export default function getContryLanguage(country: string) {
   ];
 
   const countryData = countries.find((c) => c.country === country);
-  const availableLanguages = ["es", "en", "it", "fr", "de", "pt"];
+  const availableLanguages = ["es_ar", "es", "en", "it", "fr", "de", "pt"];
 
   if (!countryData) return "en";
   if (!availableLanguages.includes(countryData.language)) return "en";

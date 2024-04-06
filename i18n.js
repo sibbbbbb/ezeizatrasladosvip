@@ -3,6 +3,7 @@ import { initReactI18next } from "react-i18next";
 
 import translationEN from "@/locales/en.json";
 import translationES from "@/locales/es.json";
+import translationAR from "@/locales/es_ar.json";
 import translationPT from "@/locales/pt_pt.json";
 import translationBR from "@/locales/pt_br.json";
 import translationIT from "@/locales/it.json";
@@ -12,6 +13,9 @@ import translationDE from "@/locales/de.json";
 const resources = {
   es: {
     translation: translationES,
+  },
+  es_ar: {
+    translation: translationAR,
   },
   en: {
     translation: translationEN,
@@ -35,7 +39,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: "es", // idioma predeterminado
+  lng: "es_ar", // idioma predeterminado
   keySeparator: false, // deshabilita el separador de claves
   interpolation: {
     escapeValue: false, // no escapa las cadenas de traducción HTML
