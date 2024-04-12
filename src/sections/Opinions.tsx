@@ -29,21 +29,18 @@ const AboutUs = () => {
                     date={t("opinion_1_date")}
                     rating={t("opinion_1_rating")}
                     content={t("opinion_1_review")}
-                    className="w-1/3"
                   />
                   <Review
                     name={t("opinion_2_name")}
                     date={t("opinion_2_date")}
                     rating={t("opinion_2_rating")}
                     content={t("opinion_2_review")}
-                    className="w-1/3"
                   />
                   <Review
                     name={t("opinion_3_name")}
                     date={t("opinion_3_date")}
                     rating={t("opinion_3_rating")}
                     content={t("opinion_3_review")}
-                    className="w-1/3"
                   />
                 </div>
               </div>
@@ -54,21 +51,18 @@ const AboutUs = () => {
                     date={t("opinion_4_date")}
                     rating={t("opinion_4_rating")}
                     content={t("opinion_4_review")}
-                    className="w-1/3"
                   />
                   <Review
                     name={t("opinion_5_name")}
                     date={t("opinion_5_date")}
                     rating={t("opinion_5_rating")}
                     content={t("opinion_5_review")}
-                    className="w-1/3"
                   />
                   <Review
                     name={t("opinion_6_name")}
                     date={t("opinion_6_date")}
                     rating={t("opinion_6_rating")}
                     content={t("opinion_6_review")}
-                    className="w-1/3"
                   />
                 </div>
               </div>
