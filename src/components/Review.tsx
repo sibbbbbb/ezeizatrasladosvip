@@ -5,7 +5,7 @@ import StarEmpty from "@/assets/icons/star-empty.svg";
 interface ReviewProps {
   name: string;
   date: string;
-  rating: number;
+  rating: string;
   content: string;
 }
 
@@ -21,9 +21,11 @@ const Review = ({ name, date, rating, content }: ReviewProps) => {
         </div>
         <div className="flex p-1 gap-1 text-orange-300">
           {[1, 2, 3, 4, 5].map((i) => {
-            if (i <= rating) {
+            const r = parseFloat(rating);
+
+            if (i <= r) {
               return <img src={Star} alt="star" />;
-            } else if (i - 0.5 === rating) {
+            } else if (i - 0.5 === r) {
               return <img src={StarHalf} alt="star" />;
             } else {
               return <img src={StarEmpty} alt="star" />;
