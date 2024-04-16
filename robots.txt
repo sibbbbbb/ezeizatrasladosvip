@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: 
-Sitemap: https://www.ezeizatrasladosvip.com
+Disallow:
+
+Sitemap: https://ezeizatrasladosvip.com/sitemap.xml
