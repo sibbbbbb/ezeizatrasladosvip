@@ -1,6 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
    <url>
-      <loc>https://ezeizatrasladosvip.com</loc>
+      <loc>http://ezeizatrasladosvip.com/</loc>
+      <xhtml:link rel="alternate" hreflang="es-ar" href="https://ezeizatrasladosvip.com/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://ezeizatrasladosvip.com/es/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://ezeizatrasladosvip.com/en/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://ezeizatrasladosvip.com/fr/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://ezeizatrasladosvip.com/it/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://ezeizatrasladosvip.com/de/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://ezeizatrasladosvip.com/pt/" />
+      <xhtml:link rel="alternate" hreflang="pt-br" href="https://ezeizatrasladosvip.com/br/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://ezeizatrasladosvip.com/en/" />
+   </url>
+   <url>
+      <loc>http://ezeizatrasladosvip.com/es/</loc>
+      <xhtml:link rel="alternate" hreflang="es-ar" href="https://ezeizatrasladosvip.com/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://ezeizatrasladosvip.com/es/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://ezeizatrasladosvip.com/en/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://ezeizatrasladosvip.com/fr/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://ezeizatrasladosvip.com/it/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://ezeizatrasladosvip.com/de/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://ezeizatrasladosvip.com/pt/" />
+      <xhtml:link rel="alternate" hreflang="pt-br" href="https://ezeizatrasladosvip.com/br/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://ezeizatrasladosvip.com/en/" />
+   </url>
+   <url>
+      <loc>http://ezeizatrasladosvip.com/en/</loc>
+      <xhtml:link rel="alternate" hreflang="es-ar" href="https://ezeizatrasladosvip.com/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://ezeizatrasladosvip.com/es/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://ezeizatrasladosvip.com/en/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://ezeizatrasladosvip.com/fr/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://ezeizatrasladosvip.com/it/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://ezeizatrasladosvip.com/de/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://ezeizatrasladosvip.com/pt/" />
+      <xhtml:link rel="alternate" hreflang="pt-br" href="https://ezeizatrasladosvip.com/br/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://ezeizatrasladosvip.com/en/" />
+   </url>
+   <url>
+      <loc>http://ezeizatrasladosvip.com/fr/</loc>
+      <xhtml:link rel="alternate" hreflang="es-ar" href="https://ezeizatrasladosvip.com/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://ezeizatrasladosvip.com/es/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://ezeizatrasladosvip.com/en/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://ezeizatrasladosvip.com/fr/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://ezeizatrasladosvip.com/it/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://ezeizatrasladosvip.com/de/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://ezeizatrasladosvip.com/pt/" />
+      <xhtml:link rel="alternate" hreflang="pt-br" href="https://ezeizatrasladosvip.com/br/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://ezeizatrasladosvip.com/en/" />
+   </url>
+      <url>
+      <loc>http://ezeizatrasladosvip.com/it/</loc>
+      <xhtml:link rel="alternate" hreflang="es-ar" href="https://ezeizatrasladosvip.com/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://ezeizatrasladosvip.com/es/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://ezeizatrasladosvip.com/en/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://ezeizatrasladosvip.com/fr/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://ezeizatrasladosvip.com/it/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://ezeizatrasladosvip.com/de/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://ezeizatrasladosvip.com/pt/" />
+      <xhtml:link rel="alternate" hreflang="pt-br" href="https://ezeizatrasladosvip.com/br/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://ezeizatrasladosvip.com/en/" />
+   </url>
+   <url>
+      <loc>http://ezeizatrasladosvip.com/de/</loc>
+      <xhtml:link rel="alternate" hreflang="es-ar" href="https://ezeizatrasladosvip.com/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://ezeizatrasladosvip.com/es/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://ezeizatrasladosvip.com/en/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://ezeizatrasladosvip.com/fr/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://ezeizatrasladosvip.com/it/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://ezeizatrasladosvip.com/de/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://ezeizatrasladosvip.com/pt/" />
+      <xhtml:link rel="alternate" hreflang="pt-br" href="https://ezeizatrasladosvip.com/br/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://ezeizatrasladosvip.com/en/" />
+   </url>
+   <url>
+      <loc>http://ezeizatrasladosvip.com/pt/</loc>
+      <xhtml:link rel="alternate" hreflang="es-ar" href="https://ezeizatrasladosvip.com/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://ezeizatrasladosvip.com/es/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://ezeizatrasladosvip.com/en/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://ezeizatrasladosvip.com/fr/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://ezeizatrasladosvip.com/it/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://ezeizatrasladosvip.com/de/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://ezeizatrasladosvip.com/pt/" />
+      <xhtml:link rel="alternate" hreflang="pt-br" href="https://ezeizatrasladosvip.com/br/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://ezeizatrasladosvip.com/en/" />
+   </url>
+   <url>
+      <loc>http://ezeizatrasladosvip.com/br/</loc>
+      <xhtml:link rel="alternate" hreflang="es-ar" href="https://ezeizatrasladosvip.com/" />
+      <xhtml:link rel="alternate" hreflang="es" href="https://ezeizatrasladosvip.com/es/" />
+      <xhtml:link rel="alternate" hreflang="en" href="https://ezeizatrasladosvip.com/en/" />
+      <xhtml:link rel="alternate" hreflang="fr" href="https://ezeizatrasladosvip.com/fr/" />
+      <xhtml:link rel="alternate" hreflang="it" href="https://ezeizatrasladosvip.com/it/" />
+      <xhtml:link rel="alternate" hreflang="de" href="https://ezeizatrasladosvip.com/de/" />
+      <xhtml:link rel="alternate" hreflang="pt" href="https://ezeizatrasladosvip.com/pt/" />
+      <xhtml:link rel="alternate" hreflang="pt-br" href="https://ezeizatrasladosvip.com/br/" />
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://ezeizatrasladosvip.com/en/" />
    </url>
 </urlset>
