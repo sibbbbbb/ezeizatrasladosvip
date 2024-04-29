@@ -42,6 +42,7 @@ const Banner = () => {
               secondaryPrice={t("second_card_2")}
             />
             <div
+              id="contact-button"
               className="relative flex items-center bg-[#19C853] w-full lg:w-11/12 px-2 py-4 cursor-pointer"
               onClick={() => clickOnContact()}
             >
