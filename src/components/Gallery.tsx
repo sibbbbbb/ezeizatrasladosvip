@@ -12,6 +12,10 @@ import Image5 from "@/assets/images/5.jpg";
 import Image5Thumbnail from "@/assets/images/thumbnails/5_thumbnail.jpg";
 import Image6 from "@/assets/images/6.jpg";
 import Image6Thumbnail from "@/assets/images/thumbnails/6_thumbnail.jpg";
+import Image7 from "@/assets/images/7.jpg";
+import Image7Thumbnail from "@/assets/images/thumbnails/7_thumbnail.jpg";
+import Image8 from "@/assets/images/8.jpg";
+import Image8Thumbnail from "@/assets/images/thumbnails/8_thumbnail.jpg";
 
 const Gallery = () => {
   const images = [
@@ -38,6 +42,14 @@ const Gallery = () => {
     {
       img: Image6,
       thumbnail: Image6Thumbnail,
+    },
+    {
+      img: Image7,
+      thumbnail: Image7Thumbnail,
+    },
+    {
+      img: Image8,
+      thumbnail: Image8Thumbnail,
     },
   ];
 
